@@ -25,17 +25,17 @@ export default function Navbar({ onSearch }) {
           </li>
         </ul>
         <ul className='h-[19px] justify-start items-center gap-5 inline-flex'>
-          <Link to='/' className='justify-center items-center gap-2.5 flex'>
-            <li className='text-[#fffff0] text-base font-semibold font-family-["Plus Jakarta Sans"] leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>Mentoring</li>
+          <Link to='/mentoring' className='justify-center items-center gap-2.5 flex'>
+            <li className='text-[#fffff0] text-base font-semibold font-sans leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>Mentoring</li>
           </Link>
-          <Link to='/' className='justify-center items-center gap-2.5 flex'>
-            <li className='text-[#fffff0] text-base font-semibold font-family-["Plus Jakarta Sans"] leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>E-Learning</li>
+          <Link to='/elearning' className='justify-center items-center gap-2.5 flex'>
+            <li className='text-[#fffff0] text-base font-semibold font-sans leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>E-Learning</li>
           </Link>
-          <Link to='/' className='justify-center items-center gap-2.5 flex'>
-            <li className='text-[#fffff0] text-base font-semibold font-family-["Plus Jakarta Sans"] leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>Artikel Karir</li>
+          <Link to='/artikel' className='justify-center items-center gap-2.5 flex'>
+            <li className='text-[#fffff0] text-base font-semibold font-sans leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>Artikel Karir</li>
           </Link>
         </ul>
-        <ul className='flex justify-center items-center'>
+        {/* <ul className='flex justify-center items-center'>
           <li className='w-full'>
             <input type=
               "text" className='text-black active:text-black rounded-md w-[600px] focus:text-black px-4 py-2 w-full' 
@@ -46,22 +46,19 @@ export default function Navbar({ onSearch }) {
               onChange={handleInputChange}  
             />
           </li>
-        </ul>
+        </ul> */}
         {!isLoggedIn ? (
             <ul className='flex gap-2 justify-end'>
             <li className='text-[#fffff0]'>
                 {/* <Link to="">Sign in</Link> */}
-                <Button type="button" classname='bg-[#fb6816] text-[#fffff0] shadow-inner-md transition hover:bg-[#fdab7f] ' onClick={ login}>Masuk</Button>
+                <Button type="button" classname='bg-[#fb6816] text-[#fffff0] shadow-inner-md font-sans transition hover:bg-[#fdab7f] ' onClick={ login}>Masuk</Button>
             </li>
         </ul>
         )
         : (
             <ul className='flex justify-end gap-2'>
-            <li >
-                <Link to='/orders' className='text-[#F2F4FF] hover:text-[#565f93] active:text-[#1d2342]'>My Orders</Link>
-            </li>
             <li>
-                <button onClick={logout} className='text-[#F2F4FF] hover:text-[#565f93] active:text-[#1d2342]'>Sign out</button>
+                <button onClick={logout} className='text-[#F2F4FF] font-sans hover:text-[#565f93] active:text-[#1d2342]'>Sign out</button>
             </li>
             <li >
                 <Link to="/editprofile" className='w-[25px] h-[25px]'>

@@ -49,7 +49,7 @@ export default function ProductPage() {
 
  
   return (
-    <>
+    <div className='font-sans'>
      <Navbar onSearch={setSearchQuery} />
       <div className='px-[150px] py-4 gap-4 mt-[68px] flex-wrap'>
           <h3 className='font-medium mb-4'>Filter</h3>
@@ -63,7 +63,7 @@ export default function ProductPage() {
       </main>
 
     </section>
-    </>
+    </div>
    
   )
 }

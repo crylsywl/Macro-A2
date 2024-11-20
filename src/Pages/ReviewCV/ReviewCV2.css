@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --body-16: 'Plus Jakarta Sans';
+    
+    /* font sizes */
+    --body-16-size: 16px;
+    --sub-heading-18-size: 18px;
+    --heading-semi-bold-32-size: 32px;
+    --sub-heading-24-size: 24px;
+    --heading-bold-40-size: 40px;
+    
+    /* Colors */
+    --neutral-white: #fffff0;
+    --primary-purple-25: #a49af6;
+    --color-black: #000;
+    --secondary-orange-orange-100: #fb6816;
+    --neutral-black: rgba(0, 0, 0, 0.2);
+    --primary-purple-100: #4c37ee;
+    
+    /* Gaps */
+    --gap-5xs: 8px;
+    --gap-9xs: 4px;
+    
+    /* Paddings */
+    --padding-mini: 15px;
+    --padding-mid: 17px;
+    --padding-3xs: 10px;
+    --padding-5xl: 24px;
+    --padding-131xl: 150px;
+    
+    /* Border radiuses */
+    --br-41xl: 60px;
+    --br-3xs: 10px;
+    
+}

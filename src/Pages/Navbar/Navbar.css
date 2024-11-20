@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    min-height: 100%;
+    width: 100%;
+    background-color: #fffff0;
+    font-family: "Plus Jakarta Sans";
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    background-color: #4C37EE;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.3), 0 4px 8px 3px rgba(0,0,0,.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  .c_soal-rectangle {
+    height: 44px;
+    width: auto;
+  }
+  /* Answer grid styles */
+  .c_soal-frame10 {
+    width: 100%;
+  }
+  .c_soal-frame17 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .c_soal-instance21,
+  .c_soal-instance22,
+  .c_soal-instance23 {
+    color: #fffff0;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  .c_soal-instance21:hover {
+    color: #FB6816;
+  }
+  .c_soal-instance22:hover {
+    color: #FB6816;
+  }
+  .c_soal-instance23:hover {
+    color: #FB6816;
+  }
+  .c_soal-instance24 {
+    width: 36px;
+    height: 36px;
+  }
+  

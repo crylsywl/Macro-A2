@@ -3,7 +3,7 @@ const Label = (props) => {
     return (
         <label 
         htmlFor={htmlFor}
-        className="block font-family-['Plus Jakarta Sans'] texy-slate-700 text-sm font-bold mb-2"
+        className="block font-sans texy-slate-700 text-sm font-bold mb-2"
         >
           {children}
         </label>

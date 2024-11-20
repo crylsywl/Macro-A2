@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/Homepage.css';
+import Navbar from '../Components/Elements/Navbar/Navbar';
 
 const Homepage = () => {
   return (
     <div>
+      <Navbar />
     <div className="c_homepage-frame">
       <div className="c_homepage-frame01">
         <div className="c_homepage-frame02">
@@ -140,7 +142,7 @@ const Homepage = () => {
           </Link>
         </div>
         <div className="c_homepage-instance14">
-          <a href="Course.jsx" style={{ textDecoration: "none" }}>
+          <a href="/" style={{ textDecoration: "none" }}>
             <div className="c_homepage-frame19">
               <img
                 src="./assets/3.png"
@@ -229,7 +231,7 @@ const Homepage = () => {
                 Tingkatkan peluangmu diterima bekerja dengan panduan yang tepat!
               </p>
             </div>
-            <a href="mentoring.html" style={{ textDecoration: "none" }}>
+            <a href="/mentoring" style={{ textDecoration: "none" }}>
               <div className="c_homepage-instance07">
                 <div className="c_homepage-text16">
                   <p className="c_homepage-text17">Lihat lainnya</p>
@@ -251,7 +253,7 @@ const Homepage = () => {
                 disusun agar kamu siap bersaing di dunia kerja.
               </p>
             </div>
-            <a href="e-learning.html" style={{ textDecoration: "none" }}>
+            <a href="/elearning" style={{ textDecoration: "none" }}>
               <div className="c_homepage-instance09">
                 <div className="c_homepage-text22">
                   <p className="c_homepage-text23">Lihat lainnya</p>
@@ -319,7 +321,7 @@ const Homepage = () => {
                 jawabannya dan langkah terbaik untuk karier impianmu!
               </p>
             </div>
-            <a href="">
+            <a href="/artikel">
               <div className="c_homepage-instance11">
                 <div className="c_homepage-text28">
                   <p className="c_homepage-text29">Lihat lainnya</p>
@@ -427,10 +429,10 @@ const Homepage = () => {
                 <div className="text-wrapper-4">Bantuan</div>
               </div>
             </div>
-          </footer>
+          </footer> <br /><br /><br /><br /><br />
         </div>
       </div>
-      <div className="c_homepage-instance27">
+      {/* <div className="c_homepage-instance27">
         <div className="c_homepage-frame41">
           <div className="c_homepage-text70">
             <a href="homepage.html">
@@ -485,7 +487,7 @@ const Homepage = () => {
             className="c_homepage-instance32"
           />
         </a>
-      </div>
+      </div> */}
     </div>
   </div>
   );

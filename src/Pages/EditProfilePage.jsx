@@ -5,7 +5,7 @@ import ProfileLayout from "../Components/Layouts/ProfileLayouts";
 
 const EditProfilePage = () => {
     return (
-        <div>
+        <div className="font-sans">
             <Navbar />
             <ProfileLayout
                 classnameOfRiwayat="border-[#121212] border-2 text-black hover:border-[#FB6816] hover:text-[#FB6816]"

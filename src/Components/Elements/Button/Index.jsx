@@ -16,7 +16,7 @@ const Button = ({
 
   // Menentukan commonProps yang akan digunakan untuk button, anchor, atau link
   const commonProps = {
-    className: `h-10 px-6 font-semibold rounded-full ${classname}`,
+    className: `h-10 px-6 font-semibold rounded-full font-sans ${classname}`,
     onClick,
     ...rest,
   };

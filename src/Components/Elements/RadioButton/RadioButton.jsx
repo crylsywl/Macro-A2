@@ -15,7 +15,7 @@ export default function RadioButton({ options, defaultValue, onChange }) {
       {options.map((option) => (
         <label
           key={option.value}
-          className={`flex items-center cursor-pointer font-family-['Plus Jakarta Sans'] hover:bg-[#A49AF6] hover:border-[#A49AF6] font-semibold gap-2 border-2 p-2 rounded-md cursor-pointer ${
+          className={`flex items-center cursor-pointer font-sans hover:bg-[#A49AF6] hover:border-[#A49AF6] font-semibold gap-2 border-2 p-2 rounded-md cursor-pointer ${
             selected === option.value
               ? "bg-[#4C37EE] border-[#4C37EE] shadow-md"  // Ganti warna teks saat dipilih
               : "border-[#121212] border-2"      // Warna teks default saat tidak dipilih

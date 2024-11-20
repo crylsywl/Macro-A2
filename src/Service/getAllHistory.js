@@ -7,7 +7,7 @@ export default function getAllHistory() {
         Judul: "Menyesuaikan CV dengan pekerjaan yang dilamar",
         Category: 'Menulis CV yang Menarik',
         Img: '/src/assets/History1.jpg',
-        Alt: '',
+        Alt: 'Thumbnail',
       },
       {
         id: 'Menulis-CV-yang-Menarik-2',
@@ -15,7 +15,7 @@ export default function getAllHistory() {
         Judul: "Cara menonjolkan pengalaman dan keahlian",
         Category: 'Menulis CV yang Menarik',
         Img: '/src/assets/Kemeja Regular Fit serbaguna Campuran Linen.jpg',
-        Alt: '',
+        Alt: 'Thumbnail',
       },
       {
         id: 'Menulis-CV-yang-Menarik-3',
@@ -23,7 +23,7 @@ export default function getAllHistory() {
         Judul: "Apa itu CV dan kenapa penting?",
         Category: 'Menulis CV yang Menarik',
         Img: '/src/assets/Kemeja Regular Fit serbaguna Campuran Linen.jpg',
-        Alt: '',
+        Alt: 'Thumbnail',
       },
 
   

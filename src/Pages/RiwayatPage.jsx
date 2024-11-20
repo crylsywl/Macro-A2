@@ -3,7 +3,7 @@ import ProfileLayouts from "../Components/Layouts/ProfileLayouts";
 import Riwayat from "../Components/Fragments/Riwayat";
 const RiwayatPage = () => {
     return (
-        <div>
+        <div className="font-sans">
             <Navbar />
             <ProfileLayouts
                 classnameOfRiwayat="bg-[#FB6816] text-[#fffff0] hover:bg-[#FDAC7F]"
